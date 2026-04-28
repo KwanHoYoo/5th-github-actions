@@ -10,7 +10,7 @@ jobs:
         run: |
           echo "App Name: ${{ vars.APP_NAME }}"
 
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment: dev
     steps:
